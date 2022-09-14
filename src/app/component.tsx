@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
-const Application: React.FC = () => {
+const Application = () => {
   return (
     <View style={styles.container}>
-      <Text>Application content goes here</Text>
+      <Text style={styles.greeting}>Application content goes here</Text>
     </View>
   );
 };
