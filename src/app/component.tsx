@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
+import LogInForm from '../components/login-form';
 
 const Application = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.greeting}>Application content goes here</Text>
+      <LogInForm />
     </View>
   );
 };
